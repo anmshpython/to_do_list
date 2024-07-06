@@ -290,4 +290,4 @@ def send_email(message):
         connection.sendmail(MAIL_ADDRESS, TO_MAIL, email_message)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(debug=False)
